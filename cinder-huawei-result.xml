@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Configuration file maintained by Juju. Local changes may be overwritten. -->
+<config>
+    <Storage>
+        <Product>Dorado</Product>
+        <UserName>username</UserName>
+        <UserPassword>Passw0rd1</UserPassword>
+        <RestURL>https://example.com:8088/deviceManager/rest/</RestURL>
+    </Storage>
+    <LUN>
+        <LUNType>Thin</LUNType>
+        <StoragePool>StorPool</StoragePool>
+    </LUN>
+
+    <iSCSI>
+        <DefaultTargetIP>172.16.161.2</DefaultTargetIP>
+
+
+        <Initiator Name="iqn.1993-08.org.debian:01:1f5846bb1c67" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:3ad418c24e21" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:6c8edec5c2" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:92b535fa5da0" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:ad8b6486692" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:d1e0de87f641" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:e9c37eb3e9a6" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:fa547e02469" TargetPortGroup="PortGroup001" />
+        <Initiator Name="iqn.1993-08.org.debian:01:fb8bea638840" TargetPortGroup="PortGroup001" />
+
+
+    </iSCSI>
+
+</config>
